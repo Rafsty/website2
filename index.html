@@ -3,107 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar</title>
+    <title>Pondok Pesantren Tarbiyyatu wa Da'wah Al-Kautsar</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8fff0;
-            color: #2c5f2d;
+            background-color: #0a3d0a;
+            color: white;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
-        header {
-            background-color: #2c5f2d;
-            color: white;
+        .header-container {
+            background-color: #0d2f0d;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 15px 50px;
+        }
+        .header-container img {
+            width: 80px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .header-title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #FFD700;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        nav {
+            background: #0d2f0d;
             padding: 15px;
-            text-align: center;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: center;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
+        nav a {
             color: white;
             text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .content {
+            font-size: 1.8em;
             font-weight: bold;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .box {
-            background-color: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #2c5f2d;
             color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+        }
+        .intro-text {
+            font-size: 1.2em;
+            color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            text-align: justify;
+        }
+        .full-width-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .contact-info {
+            font-size: 1em;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar</h1>
-        <nav>
-            <ul>
-                <li><a href="#beranda">Beranda</a></li>
-                <li><a href="#profil">Profil</a></li>
-                <li><a href="#program">Program</a></li>
-                <li><a href="#galeri">Galeri</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header-container">
+        <img src="logo.jpeg" alt="Logo Ponpes">
+        <div class="header-title">Pondok Pesantren Tarbiyyatu wa Da'wah Al-Kautsar</div>
+    </div>
     
-    <div class="container">
-        <section id="beranda" class="box">
-            <h2>Selamat Datang di Ponpes Al-Kautsar</h2>
-            <p>Menjadi pusat pendidikan Islam yang mencetak generasi unggul berlandaskan Al-Qur'an dan As-Sunnah.</p>
-        </section>
-        
-        <section id="profil" class="box">
-            <h2>Profil Pesantren</h2>
-            <p>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar didirikan untuk mendidik santri dalam ilmu agama dan ilmu umum.</p>
-        </section>
-        
-        <section id="program" class="box">
-            <h2>Program Pendidikan</h2>
-            <ul>
-                <li>Pengajian Kitab Kuning</li>
-                <li>Hafalan Al-Qur'an</li>
-                <li>Pendidikan Formal (SD/MI, SMP/MTs, SMA/MA)</li>
-                <li>Pelatihan Keterampilan</li>
-            </ul>
-        </section>
-        
-        <section id="galeri" class="box">
-            <h2>Galeri</h2>
-            <p>Foto-foto kegiatan di pondok pesantren.</p>
-        </section>
-        
-        <section id="kontak" class="box">
-            <h2>Kontak Kami</h2>
-            <p>Alamat: Jl. Pesantren No. 123, Kota XYZ</p>
-            <p>Email: info@alkautsar.ac.id</p>
-            <p>Telepon: 0812-3456-7890</p>
-        </section>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="tentang.html">Profil</a>
+        <a href="program.html">Program</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+    
+    <img src="ibrahimi.jpeg" alt="Gambar Pondok Pesantren" class="full-width-image">
+    
+    <div class="content">Selamat Datang di Website Resmi Pondok Pesantren Tarbiyyatu wa Da'wah Al-Kautsar</div>
+    
+    <div class="intro-text">
+        Pondok pesantren kini bukan lagi tempat belajar agama yang terkesan kuno dan hanya mengajari perihal agama Islam saja. Didalamnya juga terdapat materi sesuai kurikulum pendidikan umum, penguasaan bahasa, kaderisasi, dan lainnya. Di Indonesia sendiri mulai banyak bermunculan pesantren bagus di Bogor dan di kota-kota lainnya.
+        <br><br>
+        Jika Anda menginginkan pesantren terbaik di Bogor, Anda harus mengetahui terlebih dahulu apa saja kriteria dari pesantren bagus itu agar dapat memilihnya secara tepat. Anda tentu menginginkan bukan dapat mempelajari ilmu agama secara mendalam dan nyaman dengan lingkunganya? Untuk itu berikut kami sajikan rangkumannya untuk Anda.
+    </div>
+    
+    <div class="contact-info">
+        ✉ info@alkautsar.com | ☎ 081234567890
     </div>
     
     <footer>
-        <p>&copy; 2025 Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar. Hak Cipta Dilindungi.</p>
+        &copy; 2025 Pondok Pesantren Tarbiyyatu wa Da'wah Al-Kautsar. Hak Cipta Dilindungi.
     </footer>
 </body>
 </html>
