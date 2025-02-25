@@ -3,87 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Setya Sulistyani</title>
+    <title>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f8fff0;
+            color: #2c5f2d;
             margin: 0;
             padding: 0;
-            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #ffdde1);
-            background-size: 400% 400%;
-            animation: gradientBG 10s ease infinite;
+        }
+        header {
+            background-color: #2c5f2d;
+            color: white;
+            padding: 15px;
             text-align: center;
         }
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
         }
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-        section {
             padding: 20px;
         }
-        .project {
-            background: #fff;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: left;
-        }
-        .project img {
-            width: 100%;
-            border-radius: 5px;
+        .box {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
         }
         footer {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            background-color: #2c5f2d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Portofolio Setya Sulistyani</h1>
+        <h1>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <div class="container">
-        <section id="about">
-            <h2>Tentang Saya</h2>
-            <img src="profile.jpg" alt="Foto Setya Sulistyani" width="200">
-            <p>Halo, saya Setya Sulistyani, seorang konten kreator dengan latar belakang pendidikan terakhir S1 di Universitas Binaniaga.</p>
+        <section id="beranda" class="box">
+            <h2>Selamat Datang di Ponpes Al-Kautsar</h2>
+            <p>Menjadi pusat pendidikan Islam yang mencetak generasi unggul berlandaskan Al-Qur'an dan As-Sunnah.</p>
         </section>
-        <section id="projects">
-            <h2>Proyek Saya</h2>
-            <div class="project">
-                <h3>Membuat Video Edukasi di Sekolah Islam</h3>
-                <img src="video-edukasi.jpg" alt="Video Edukasi di Sekolah Islam">
-                <p>Saya membuat video edukasi interaktif untuk siswa sekolah Islam, membantu mereka memahami pelajaran dengan lebih menyenangkan dan mudah dicerna. Video ini menggabungkan animasi kreatif, ilustrasi menarik, serta konsep belajar berbasis nilai-nilai Islam.</p>
-            </div>
-            <div class="project">
-                <h3>Proyek 2</h3>
-                <p>Deskripsi proyek kedua saya.</p>
-            </div>
+        
+        <section id="profil" class="box">
+            <h2>Profil Pesantren</h2>
+            <p>Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar didirikan untuk mendidik santri dalam ilmu agama dan ilmu umum.</p>
         </section>
-        <section id="contact">
-            <h2>Kontak</h2>
-            <p>Email: email@domain.com</p>
-            <p>LinkedIn: linkedin.com/in/setya-sulistyani</p>
+        
+        <section id="program" class="box">
+            <h2>Program Pendidikan</h2>
+            <ul>
+                <li>Pengajian Kitab Kuning</li>
+                <li>Hafalan Al-Qur'an</li>
+                <li>Pendidikan Formal (SD/MI, SMP/MTs, SMA/MA)</li>
+                <li>Pelatihan Keterampilan</li>
+            </ul>
+        </section>
+        
+        <section id="galeri" class="box">
+            <h2>Galeri</h2>
+            <p>Foto-foto kegiatan di pondok pesantren.</p>
+        </section>
+        
+        <section id="kontak" class="box">
+            <h2>Kontak Kami</h2>
+            <p>Alamat: Jl. Pesantren No. 123, Kota XYZ</p>
+            <p>Email: info@alkautsar.ac.id</p>
+            <p>Telepon: 0812-3456-7890</p>
         </section>
     </div>
+    
     <footer>
-        <p>&copy; 2025 Portofolio Setya Sulistyani</p>
+        <p>&copy; 2025 Pondok Pesantren Tarbiyatu wa Dawah Al-Kautsar. Hak Cipta Dilindungi.</p>
     </footer>
 </body>
 </html>
